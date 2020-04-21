@@ -1,0 +1,157 @@
+*{
+    font-family: 'Manrope', sans-serif;;
+}
+
+.nav-bar{
+    background-color: black;
+}
+
+.nav-bar ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+    margin-left:100px;
+}
+
+ .nav-bar li{
+    float:left;
+}
+
+ .nav-bar li a{
+    text-decoration:none;
+    display:block;
+    color: white;
+    padding:20px 15px;
+}
+
+.icons{
+    margin-right:5px ;
+}
+
+.login{
+    margin-left: 1000px;
+    background-color: #201d1d;
+}
+
+.nav-bar li ::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title-div{
+    background-image: url(../images/fav.jpg);
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top:20px;
+    text-align:center ;
+    color:white;
+}
+
+.link-green{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding:10px 15px;
+}
+
+.link-blue{
+    text-decoration: none;
+    color: white;
+    background-color:blue;
+    border-radius: 5px;
+    padding:10px 15px;
+}
+
+.link-light{
+    text-decoration: none;
+    color: white;
+    background-color:deepskyblue;
+    border-radius: 5px;
+    padding:10px 15px;
+}
+
+.services{
+    text-align: center;
+    background-color: #f5f4f4;
+    padding:10px 10px;
+}
+
+.services-holder::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.services-holder{
+    width:90%;
+    margin:0 auto;
+    padding-bottom: 20px;
+
+}
+
+.services h1{
+    padding-bottom: 20px;
+}
+
+.web-dev{
+    float:left;
+}
+
+/* .web-dev ::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.graphics{
+    float:left;
+    padding-left: 40px;
+}
+
+/* .graphics ::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.data{
+    float:left;
+    padding-left: 40px; 
+}
+/* .data::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.cloud{
+    float:left;
+    padding-left: 40px;
+}
+
+/* .services::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.conclusion{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.conclusion a{
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: seagreen;
+    padding:5px 10px; 
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding-top: 30px;
+}
